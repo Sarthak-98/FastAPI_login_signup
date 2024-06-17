@@ -53,6 +53,7 @@ This project is a backend system API for user signup and login, built using Fast
 4. **Configure the database**
 
    Update the database configuration in the `.env` file with your PostgreSQL database credentials.
+   The sample database structure is in the 'dump.sql' file
 
 5. **Run database migrations**
 
