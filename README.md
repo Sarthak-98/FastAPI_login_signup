@@ -70,69 +70,8 @@ This project is a backend system API for user signup and login, built using Fast
 
    The API will be available at `http://127.0.0.1:8000` after you add this url to the cors origin in the ".env" file
 
-## API Endpoints
 
-### Signup
-
-- **URL**: `/signup`
-- **Method**: `POST`
-- **Request Body**:
-
-  ```json
-  {
-    "username": "your-username",
-    "password": "your-password"
-  }
-  ```
-
-- **Response**:
-
-  ```json
-  {
-    "msg": "User created successfully"
-  }
-  ```
-
-### Login
-
-- **URL**: `/login`
-- **Method**: `POST`
-- **Request Body**:
-
-  ```json
-  {
-    "username": "your-username",
-    "password": "your-password"
-  }
-  ```
-
-- **Response**:
-
-  ```json
-  {
-    "access_token": "your-jwt-token",
-    "token_type": "bearer"
-  }
-  ```
-
-### Protected Endpoint Example
-
-- **URL**: `/protected`
-- **Method**: `GET`
-- **Headers**:
-
-  ```http
-  Authorization: Bearer your-jwt-token
-  ```
-
-- **Response**:
-
-  ```json
-  {
-    "msg": "You are logged in!"
-  }
-  ```
-
+  
 ## Folder Structure
 
 ```
